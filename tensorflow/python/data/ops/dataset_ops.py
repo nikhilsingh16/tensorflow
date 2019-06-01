@@ -85,7 +85,7 @@ class DatasetV2(object):
     subclasses to create a variant_tensor and pass it in to the super() call.
 
     Args:
-      variant_tensor: A DT_VARIANT tensor that represents the dataset.
+      variant_tensor: A `DT_VARIANT` tensor that represents the dataset.
     """
     self._variant_tensor_attr = variant_tensor
     self._graph_attr = ops.get_default_graph()
